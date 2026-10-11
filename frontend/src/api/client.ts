@@ -1,0 +1,2 @@
+const BASE=import.meta.env.VITE_API_URL ?? 'http://127.0.0.1:8000';
+export async function api<T>(path:string, options:RequestInit={}):Promise<T>{const r=await fetch(BASE+path,{headers:{...(options.body instanceof FormData?{}:{'Content-Type':'application/json'}),...options.headers},...options}); if(!r.ok) throw new Error((await r.json().catch(()=>({detail:r.statusText}))).detail||r.statusText); return r.json()}

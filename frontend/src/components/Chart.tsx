@@ -1,0 +1,1 @@
+import Plot from 'react-plotly.js'; export default function Chart({data}:{data:any[]}){return <Plot data={data} layout={{paper_bgcolor:'#111827',plot_bgcolor:'#111827',font:{color:'#d1d5db'},margin:{l:45,r:15,t:25,b:40},autosize:true}} useResizeHandler style={{width:'100%',height:'330px'}} config={{displayModeBar:false}}/>}

@@ -1,0 +1,19 @@
+assets:
+  - {symbol: "^NSEI", name: "NIFTY 50", category: "Benchmark", sector: "Broad Market", investable: false}
+  - {symbol: "NIFTYBEES.NS", name: "Nippon India ETF Nifty BeES", category: "ETF", sector: "Broad Market", investable: true}
+  - {symbol: "BANKBEES.NS", name: "Nippon India ETF Bank BeES", category: "ETF", sector: "Financials", investable: true}
+  - {symbol: "ITBEES.NS", name: "Nippon India ETF IT", category: "ETF", sector: "Information Technology", investable: true}
+  - {symbol: "PHARMABEES.NS", name: "Nippon India ETF Pharma", category: "ETF", sector: "Healthcare", investable: true}
+  - {symbol: "GOLDBEES.NS", name: "Nippon India ETF Gold BeES", category: "Commodity ETF", sector: "Gold", investable: true}
+  - {symbol: "LIQUIDBEES.NS", name: "Nippon India ETF Liquid BeES", category: "Debt ETF", sector: "Debt", investable: true}
+  - {symbol: "SETFGOLD.NS", name: "SBI ETF Gold", category: "Commodity ETF", sector: "Gold", investable: true}
+  - {symbol: "HDFCBANK.NS", name: "HDFC Bank", category: "Equity", sector: "Financials", investable: true}
+  - {symbol: "RELIANCE.NS", name: "Reliance Industries", category: "Equity", sector: "Energy", investable: true}
+  - {symbol: "TCS.NS", name: "Tata Consultancy Services", category: "Equity", sector: "Information Technology", investable: true}
+  - {symbol: "INFY.NS", name: "Infosys", category: "Equity", sector: "Information Technology", investable: true}
+  - {symbol: "ICICIBANK.NS", name: "ICICI Bank", category: "Equity", sector: "Financials", investable: true}
+  - {symbol: "HINDUNILVR.NS", name: "Hindustan Unilever", category: "Equity", sector: "Consumer Staples", investable: true}
+  - {symbol: "LT.NS", name: "Larsen & Toubro", category: "Equity", sector: "Industrials", investable: true}
+  - {symbol: "SUNPHARMA.NS", name: "Sun Pharmaceutical", category: "Equity", sector: "Healthcare", investable: true}
+  - {symbol: "^NSEBANK", name: "NIFTY Bank Index", category: "Index", sector: "Financials", investable: false}
+  - {symbol: "^CNXIT", name: "NIFTY IT Index", category: "Index", sector: "Information Technology", investable: false}

@@ -1,0 +1,1 @@
+export const Demo=({show}:{show?:boolean})=>show?<span className="badge">DEMO DATA</span>:null; export const Loading=()=> <p className="muted">Loading…</p>; export const ErrorBox=({error}:{error:string})=><p className="error">{error}</p>;

@@ -1,0 +1,3 @@
+import {NavLink,Outlet} from 'react-router-dom';
+const links=[['/','Overview'],['/portfolio','My Portfolio'],['/risk','Risk Intelligence'],['/allocation','Smart Allocation'],['/backtest','Backtesting Lab'],['/simulation','Monte Carlo Simulator'],['/insights','Explainable Insights'],['/stress','Stress Testing'],['/governance','Governance & Methodology']];
+export default function Shell(){return <div className="shell"><aside><h1>Quantech</h1><p className="muted">Portfolio intelligence</p><nav>{links.map(([to,label])=><NavLink key={to} to={to}>{label}</NavLink>)}</nav></aside><main><Outlet/><footer>Research/educational prototype only — not financial advice. No SEBI claims. User data remains in browser memory.</footer></main></div>}
